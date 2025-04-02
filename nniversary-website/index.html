@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>1000天恋爱纪念日</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            font-family: 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header {
+            background: rgba(255,255,255,0.9);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #e91e63;
+            font-size: 2.5em;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .photo-wall {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 20px;
+        }
+
+        .photo-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .photo-item:hover {
+            transform: scale(1.05);
+        }
+
+        .photo-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .timer {
+            font-size: 2em;
+            color: #fff;
+            background: rgba(233,30,99,0.9);
+            padding: 15px 30px;
+            border-radius: 50px;
+            margin: 20px;
+        }
+
+        .love-letter {
+            background: rgba(255,255,255,0.9);
+            padding: 25px;
+            border-radius: 15px;
+            line-height: 1.8;
+            text-align: left;
+            margin: 20px;
+        }
+
+        .heart {
+            position: fixed;
+            font-size: 20px;
+            color: #e91e63;
+            animation: float 3s infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-100vh); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>❤ 1000天恋爱纪念日 ❤</h1>
+            <div class="timer" id="timer">1000 Days</div>
+        </div>
+
+        <div class="photo-wall">
+            <!-- 替换为你们自己的照片路径 -->
+            <div class="photo-item"><img src="photo2.jpg" alt="小男孩小女孩"></div>
+            <div class="photo-item"><img src="photo3.jpg" alt="在植物园"></div>
+            <div class="photo-item"><img src="photo4.jpg" alt="吃牛肉火锅"></div>
+            <div class="photo-item"><img src="photo5.jpg" alt="在稻梦空间"></div>
+            <div class="photo-item"><img src="photo6.jpg" alt="松弛的一餐自助"></div>  
+            <div class="photo-item"><img src="photo7.jpg" alt="在通辽"></div>
+        </div>
+
+        <div class="love-letter">
+    <h2>致我最亲爱的宝：</h2>
+    <p>一千次日升月落，爱你如初</p>
+    
+    <div class="letter-content">
+        <p>亲爱的宝儿：</p>
+        
+        <p>此刻窗外的月光像极了三年前手机屏幕的微光，照亮我们初遇时对话框里青涩的问候，"你好呀"。命运让沈自所联谊活动的红线穿过云端，在万达广场的果茶香里落成真实的温度。记得中街的遮阳伞在热浪里绽成白莲，我们坐在喧闹中心的石凳上，白昼的炽烈与表白的悸动至今萦绕心头。</p>
+
+        <p>沈阳的四季从此有了颜色：东大的银杏铺满我们漫步的脚印，医大的野花组合记得你困倦时压在我肩头的重量。</p>
+
+        <p>去年七月蝉声锯开滚烫的云絮，我们终于将彼此嵌入家族的年轮。在何家冲斑驳的青石碑前，我们并肩读完"北上抗日"的鎏金刻痕。南湾湖的碧水漫过船舷时，惊飞的白鹭掠过你扬起的发梢。后来我们坐在你高中褪色的石阶上，看蓝白色的人潮漫过教学楼拐角。你笑着指认某扇窗后的课桌，说当年解不开的数学题。阳光把下课的喧哗染成旧胶片，我数着穿梭而过的帆布鞋，忽然明白落在你课桌上的雨，是怎样浇灌出此刻与我共数年轮的凤凰木。</p>
+
+        <p>一千天足够让樱花树抽三次新芽，却不够我数清你睫毛眨动的次数；足够让浑河水结三次冰，却冻不住我们掌心相扣的温度。记得你拍给我看寝室外面的万家灯火，我说迟早也有属于我跟我宝的一盏——原来最动人的情话，是用一千个晨昏的等待熬成的笃定。</p>
+
+        <p>此刻我们站在时光的琥珀里回望，那些分离的褶皱都成了爱的年轮。未来的路或许仍有风雪，但我们已经学会把牵挂缝进行李箱，把承诺种在异乡的土壤里。等第一千零一个黎明到来时，请允许我继续做你晨起时的温水，晚归时的路灯，做你永远不必回头张望的归途。</p>
+
+        <p>以余生为尺，一千天不过是序章。愿我们永远像中街那对笨拙牵手的少年，在岁月长河里慢慢写属于我们的故事。</p>
+
+        <p class="signature">永远属于你的<br>傲娇鬼</p>
+    </div>
+</div>
+
+    <script>
+        // 自动生成爱心
+        function createHearts() {
+            setInterval(() => {
+                const heart = document.createElement('div');
+                heart.className = 'heart';
+                heart.innerHTML = '❤';
+                heart.style.left = Math.random() * 100 + 'vw';
+                heart.style.animationDuration = Math.random() * 3 + 2 + 's';
+                document.body.appendChild(heart);
+                
+                setTimeout(() => heart.remove(), 5000);
+            }, 300);
+        }
+
+        // 启动爱心动画
+        createHearts();
+    </script>
+</body>
+</html>
